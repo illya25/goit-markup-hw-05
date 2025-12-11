@@ -16,6 +16,19 @@
   --dairy: #fcfcfc;
 }
 
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+} 
+
 /* --------------------- BASE STYLES --------------------- */
 body {
   font-family: "Roboto", sans-serif;
@@ -40,6 +53,11 @@ a {
   text-decoration: none;
 }
 
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
 /* --------------------- HEADER --------------------- */
 .header {
   padding: 20px 0;
@@ -59,10 +77,20 @@ a {
   color: var(--iris);
 }
 
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar__list {
+  display: flex;
+}
+
 .navbar__link {
   color: var(--navyBlue);
   font-weight: 500;
   letter-spacing: 0.02em;
+  padding: 40px;
 }
 
 .navbar__link:hover,
@@ -70,19 +98,35 @@ a {
   color: var(--ocean);
 }
 
+.contacts {
+  font-style: normal;
+}
+
+.contacts__list {
+  display: flex;
+}
+
+.contacts__link {
+  padding: 40px;
+}
+
 /* --------------------- HERO --------------------- */
 .hero {
   background-color: var(--navyBlue);
-  padding: 120px 0;
   text-align: center;
+  padding-top: 188px;
+  padding-bottom: 190px;
 }
 
 .maintitle {
+  max-width: 496px;
+  margin: 0 auto;
   color: var(--white);
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
   margin-bottom: 32px;
+
 }
 
 .btn {
@@ -103,6 +147,19 @@ a {
 }
 
 /* --------------------- FEATURES --------------------- */
+
+.features {
+  padding: 120px;
+}
+
+.features__list{
+  display: flex;
+}
+
+.features__subtitle{
+  padding-bottom: 8px;
+}
+
 .subtitle {
   font-weight: 500;
   font-size: 20px;
@@ -120,6 +177,15 @@ a {
 /* --------------------- TEAM --------------------- */
 .team {
   background-color: var(--cloud);
+  padding: 120px;
+}
+
+.team__list {
+  display: flex;
+}
+
+.team__block {
+  padding: 24px;
 }
 
 .team li {
@@ -127,12 +193,14 @@ a {
 }
 
 .team__title {
+  padding-bottom: 72px;
   text-align: center;
   color: var(--navyBlue);
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
 }
+
 
 /* --------------------- PORTFOLIO --------------------- */
 .portfolio__title {

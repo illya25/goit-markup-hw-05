@@ -100,6 +100,7 @@ a {
 }
 
 .navbar__link {
+  display: inline-block;
   color: var(--navyBlue);
   font-weight: 500;
   letter-spacing: 0.02em;
@@ -123,6 +124,7 @@ a {
 }
 
 .contacts__link {
+  display: inline-block;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -260,10 +262,6 @@ a {
 
 .portfolio {
   padding: 120px 0;
-}
-
-.portfolio__title {
-  padding: 120px 0 72px;
 }
 
 .portfolio__wrapper {

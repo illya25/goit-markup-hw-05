@@ -194,7 +194,7 @@ a {
 
 .features__list {
   display: flex;
-  gap: 23px;
+  gap: 24px;
   justify-content: center;
 }
 
@@ -233,7 +233,7 @@ a {
 
 .team__list {
   display: flex;
-  gap: 23px;
+  gap: 24px;
   text-align: center;
 }
 

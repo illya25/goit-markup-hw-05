@@ -194,7 +194,7 @@ a {
 
 .features__list {
   display: flex;
-  gap: 24px;
+  gap: 23px;
   justify-content: center;
 }
 
@@ -233,7 +233,7 @@ a {
 
 .team__list {
   display: flex;
-  gap: 24px;
+  gap: 23px;
   text-align: center;
 }
 
@@ -292,6 +292,7 @@ a {
 }
 
 .portfolio__name {
+  margin-bottom: 8px;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
